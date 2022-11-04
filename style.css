@@ -1,0 +1,19 @@
+body {
+    direction: rtl;
+}
+body>div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  body>div>div {
+    flex-grow: 1;
+    width: 33%;
+    height: 100px;
+  }
+  img {
+    align-self: center;
+    width: 100%;
+    height: auto;
+  }
+
